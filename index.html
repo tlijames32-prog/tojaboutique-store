@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="TojaBoutique Store — sneakers, streetwear, and premium style." />
+  <title>TojaBoutique Store</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home">TOJA<span>BOUTIQUE</span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    <nav id="navMenu">
+      <a href="#home">Home</a>
+      <a href="#shop">Shop</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">PREMIUM SNEAKERS • RENO, NV</p>
+        <h1>Step different.<br><span>Wear Toja.</span></h1>
+        <p class="hero-text">Shop bold sneakers and streetwear selected for everyday style. Clean looks, standout pairs, fast responses.</p>
+        <div class="hero-actions">
+          <a class="btn btn-light" href="#shop">Shop Now</a>
+          <a class="btn btn-outline" href="https://wa.me/10000000000" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <img src="assets/dg-sneaker.jpg" alt="Featured blue and white sneaker" />
+        <div class="hero-badge">NEW DROP</div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="store benefits">
+      <span>NEW ARRIVALS</span><span>•</span><span>PREMIUM STYLE</span><span>•</span><span>FAST RESPONSE</span><span>•</span><span>LOCAL PICKUP</span>
+    </section>
+
+    <section class="shop-section" id="shop">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">SHOP</p>
+          <h2>Featured Sneakers</h2>
+        </div>
+        <button class="filter-btn active">All</button>
+      </div>
+
+      <div class="products">
+        <article class="product-card">
+          <div class="product-image"><img src="assets/dg-sneaker.jpg" alt="Blue white black sneaker" /></div>
+          <div class="product-info">
+            <div><h3>Blue Luxury Runner</h3><p>Men's sneaker</p></div>
+            <strong>$150</strong>
+          </div>
+          <a class="product-btn" href="https://wa.me/10000000000?text=Hi%20TojaBoutique%2C%20I%27m%20interested%20in%20the%20Blue%20Luxury%20Runner" target="_blank" rel="noopener">Ask on WhatsApp</a>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image"><img src="assets/white-sneaker.jpg" alt="White low top sneaker" /></div>
+          <div class="product-info">
+            <div><h3>White Metallic Low</h3><p>Clean everyday style</p></div>
+            <strong>$140</strong>
+          </div>
+          <a class="product-btn" href="https://wa.me/10000000000?text=Hi%20TojaBoutique%2C%20I%27m%20interested%20in%20the%20White%20Metallic%20Low" target="_blank" rel="noopener">Ask on WhatsApp</a>
+        </article>
+
+        <article class="product-card placeholder-card">
+          <div class="product-image placeholder-image"><span>YOUR NEXT<br>PRODUCT</span></div>
+          <div class="product-info">
+            <div><h3>New Arrival</h3><p>Add another sneaker here</p></div>
+            <strong>$—</strong>
+          </div>
+          <a class="product-btn" href="#contact">Add Product</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="about-number">01</div>
+      <div class="about-copy">
+        <p class="eyebrow">ABOUT TOJABOUTIQUE</p>
+        <h2>Style that gets noticed.</h2>
+        <p>TojaBoutique Store is built for sneaker lovers who want standout pairs without the complicated shopping experience. Browse the latest drops, message us directly, and get quick help with sizes and availability.</p>
+        <div class="stats">
+          <div><strong>250+</strong><span>Pairs in inventory</span></div>
+          <div><strong>Fast</strong><span>Direct messaging</span></div>
+          <div><strong>Local</strong><span>Reno pickup options</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div>
+        <p class="eyebrow">CONTACT</p>
+        <h2>Ready to order?</h2>
+        <p>Send us a message with the sneaker name and your size. We’ll confirm availability and next steps.</p>
+      </div>
+      <div class="contact-actions">
+        <a class="btn btn-light" href="https://wa.me/10000000000" target="_blank" rel="noopener">Chat on WhatsApp</a>
+        <a class="btn btn-outline" href="mailto:tojaboutiquestore@example.com">Email Us</a>
+      </div>
+    </section>
+  </main>
+
+  <a class="floating-whatsapp" href="https://wa.me/10000000000" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">WA</a>
+
+  <footer>
+    <a class="brand" href="#home">TOJA<span>BOUTIQUE</span></a>
+    <p>© <span id="year"></span> TojaBoutique Store. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
